@@ -93,6 +93,7 @@ html[lang="en"] .cs, html[lang="cs"] .en { display: none; }
 .land .problem b { color: #a5442e; }
 .land p b { color: var(--green-dark); }
 .result { text-align: center; font-size: 1.15rem; margin-top: 2rem; }
+.wild .item { background: #fff; box-shadow: 0 4px 14px rgba(0,0,0,.06); border-top: 5px solid var(--earth); }
 .join { text-align: center; }
 .join .intro { margin: 0 auto; }
 .join .item { background: #fff; text-align: left; box-shadow: 0 4px 14px rgba(0,0,0,.06); }
