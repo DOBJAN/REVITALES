@@ -78,6 +78,15 @@ html[lang="en"] .cs, html[lang="cs"] .en { display: none; }
 .mission-values { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem; }
 .mission-values > div { background: var(--cream); border-radius: var(--radius); padding: 1.5rem; border-left: 5px solid var(--moss); }
 .mission-values p { margin: 0; font-size: .97rem; }
+.landtypes { padding-top: 0; }
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+.land { background: #fff; border-radius: var(--radius); padding: 1.6rem; box-shadow: 0 4px 14px rgba(0,0,0,.06); border-top: 5px solid var(--green); }
+.land:nth-child(2) { border-color: var(--earth); }
+.land h3 { margin-top: 0; }
+.land p { color: var(--muted); margin: .5rem 0; }
+.land .problem b { color: #a5442e; }
+.land p b { color: var(--green-dark); }
+.result { text-align: center; font-size: 1.15rem; margin-top: 2rem; }
 .join { text-align: center; }
 .join .intro { margin: 0 auto; }
 .join .item { background: #fff; text-align: left; box-shadow: 0 4px 14px rgba(0,0,0,.06); }
@@ -157,7 +166,7 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 footer { text-align: center; padding: 2rem; background: var(--green-dark); color: #b9c7ad; font-size: .9rem; }
 
 @media (max-width: 800px) {
-  .split, .thermo, .mission-inner, .mission-values { grid-template-columns: 1fr; }
+  .split, .thermo, .mission-inner, .mission-values, .compare { grid-template-columns: 1fr; }
   .btn-outline { margin: .6rem 0 0; }
   .split.reverse figure { order: 2; }
   .gallery { grid-template-columns: 1fr; }
