@@ -78,6 +78,12 @@ html[lang="en"] .cs, html[lang="cs"] .en { display: none; }
 .mission-values { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 3rem; }
 .mission-values > div { background: var(--cream); border-radius: var(--radius); padding: 1.5rem; border-left: 5px solid var(--moss); }
 .mission-values p { margin: 0; font-size: .97rem; }
+.more { margin-top: .8rem; }
+.more summary { cursor: pointer; color: var(--green); font-weight: 600; list-style: none; }
+.more summary::-webkit-details-marker { display: none; }
+.more summary::after { content: " ▾"; }
+.more[open] summary::after { content: " ▴"; }
+.more p { margin-top: .6rem; }
 .landtypes { padding-top: 0; }
 .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
 .land { background: #fff; border-radius: var(--radius); padding: 1.6rem; box-shadow: 0 4px 14px rgba(0,0,0,.06); border-top: 5px solid var(--green); }
