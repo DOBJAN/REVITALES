@@ -18,8 +18,10 @@ body {
   background: var(--cream);
   line-height: 1.65;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--green); }
+:focus-visible { outline: 3px solid var(--moss); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
 h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); margin: 0 0 1rem; color: var(--green-dark); }
 h3 { margin: .4rem 0 .4rem; font-size: 1.15rem; }
@@ -53,6 +55,16 @@ html[lang="en"] .cs, html[lang="cs"] .en { display: none; }
   background:
     linear-gradient(rgba(20, 35, 22, .35), rgba(20, 35, 22, .6)),
     url("images/clearcut-slope.jpg") center / cover no-repeat;
+  background:
+    linear-gradient(rgba(20, 35, 22, .35), rgba(20, 35, 22, .6)),
+    image-set(url("images/clearcut-slope.webp") type("image/webp"), url("images/clearcut-slope.jpg") type("image/jpeg")) center / cover no-repeat;
+}
+@media (max-width: 800px) {
+  .hero {
+    background:
+      linear-gradient(rgba(20, 35, 22, .35), rgba(20, 35, 22, .6)),
+      image-set(url("images/clearcut-slope-900.webp") type("image/webp"), url("images/clearcut-slope.jpg") type("image/jpeg")) center / cover no-repeat;
+  }
 }
 .hero-inner { max-width: 760px; }
 .kicker { letter-spacing: .25em; text-transform: uppercase; font-size: .85rem; opacity: .9; margin: 0; }

@@ -1,41 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Revitales – from damaged land to edible forest</title>
-  <meta name="description" content="Revitales is a philanthropic project in Czechia turning bark-beetle spruce clearcuts and exhausted, compacted fields and meadows into edible orchards with wetlands – fruit and nut trees, berries, herbs, ponds and wild zones. Everyone is welcome to join.">
+  <title>Revitales – jedlý les a sad s mokřady místo kůrovcových holin</title>
+  <meta name="description" content="Filantropický projekt Revitales mění kůrovcové holiny a vyčerpaná pole v jedlý les: ovocné a ořechové stromy, tůně, mokřady a divoká příroda. Přidejte se.">
+  <link rel="canonical" href="https://revitales.cz/">
+  <link rel="alternate" hreflang="cs" href="https://revitales.cz/">
+  <link rel="alternate" hreflang="en" href="https://revitales.cz/en/">
+  <link rel="alternate" hreflang="x-default" href="https://revitales.cz/">
+  <meta name="theme-color" content="#1d3a25">
+  <meta name="author" content="Honza Dobrovolný">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Revitales">
+  <meta property="og:title" content="Revitales – jedlý les a sad s mokřady místo kůrovcových holin">
+  <meta property="og:description" content="Filantropický projekt Revitales mění kůrovcové holiny a vyčerpaná pole v jedlý les: ovocné a ořechové stromy, tůně, mokřady a divoká příroda. Přidejte se.">
+  <meta property="og:url" content="https://revitales.cz/">
+  <meta property="og:image" content="https://revitales.cz/images/og-revitales.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Svah kůrovcové holiny s pařezy a prvními výsadbami, nad ním stromy a modré nebe">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" type="image/webp" href="images/clearcut-slope.webp" media="(min-width: 801px)" fetchpriority="high">
+  <link rel="preload" as="image" type="image/webp" href="images/clearcut-slope-900.webp" media="(max-width: 800px)" fetchpriority="high">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://revitales.cz/#organization",
+      "name": "Revitales",
+      "url": "https://revitales.cz/",
+      "email": "dob.jan@centrum.cz",
+      "telephone": "+420605570241",
+      "image": "https://revitales.cz/images/og-revitales.jpg",
+      "founder": {
+        "@type": "Person",
+        "name": "Honza Dobrovolný"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Czechia"
+      },
+      "slogan": "Od kořenů až za hranice nebe",
+      "description": "Filantropický projekt, který mění kůrovcové holiny a chemií vyčerpaná, utužená pole a louky v jedlý les a sady s tůněmi a mokřady na 7 místech o rozloze zhruba 5 ha.",
+      "knowsAbout": [
+        "jedlý les",
+        "lesní zahrada",
+        "permakultura",
+        "obnova lesa po kůrovci",
+        "kůrovcová holina",
+        "obnova vyčerpané půdy",
+        "tůně a mokřady",
+        "zadržování vody v krajině",
+        "staré odrůdy ovocných stromů",
+        "oskeruše",
+        "biodiverzita",
+        "udržitelnost",
+        "off-grid energie"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://revitales.cz/#website",
+      "url": "https://revitales.cz/",
+      "name": "Revitales",
+      "inLanguage": [
+        "cs",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://revitales.cz/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://revitales.cz/#webpage",
+      "url": "https://revitales.cz/",
+      "name": "Revitales – jedlý les a sad s mokřady místo kůrovcových holin",
+      "description": "Filantropický projekt Revitales mění kůrovcové holiny a vyčerpaná pole v jedlý les: ovocné a ořechové stromy, tůně, mokřady a divoká příroda. Přidejte se.",
+      "inLanguage": "cs",
+      "isPartOf": {
+        "@id": "https://revitales.cz/#website"
+      },
+      "about": {
+        "@id": "https://revitales.cz/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://revitales.cz/images/og-revitales.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 
 <header class="nav">
   <a href="#top" class="logo">Revi<span>tales</span></a>
   <nav>
-    <a href="#mission"><span class="en">Mission</span><span class="cs">Mise</span></a>
-    <a href="#story"><span class="en">Story</span><span class="cs">Příběh</span></a>
-    <a href="#sites"><span class="en">Sites</span><span class="cs">Pozemky</span></a>
-    <a href="#work"><span class="en">What we do</span><span class="cs">Co děláme</span></a>
-    <a href="#ngeni"><span class="en">Energy test</span><span class="cs">Test energie</span></a>
-    <a href="#contact"><span class="en">Contact</span><span class="cs">Kontakt</span></a>
-    <a href="stanovy.html"><span class="en">Statutes</span><span class="cs">Stanovy</span></a>
-    <button id="lang" type="button" aria-label="Switch language">CZ</button>
+    <a href="#mission">Mise</a>
+    <a href="#story">Příběh</a>
+    <a href="#sites">Pozemky</a>
+    <a href="#work">Co děláme</a>
+    <a href="#ngeni">Test energie</a>
+    <a href="#contact">Kontakt</a>
+    <a href="stanovy.html">Stanovy</a>
+    <a id="lang" href="en/" hreflang="en" lang="en" title="English version">EN</a>
   </nav>
 </header>
 
 <!-- HERO -->
 <section class="hero" id="top">
   <div class="hero-inner">
-    <p class="kicker"><span class="en">Revitalizace + Les</span><span class="cs">Revitalizace + Les</span></p>
+    <p class="kicker">Revitalizace + Les</p>
     <h1>Revitales</h1>
-    <p class="slogan"><span class="en">Sky is not the limit</span><span class="cs">Od kořenů až za hranice nebe</span></p>
+    <p class="slogan">Od kořenů až za hranice nebe</p>
     <p class="lead">
-      <span class="en">We turn forests killed by bark beetle, and fields and meadows worn out by chemicals and heavy machinery, into a living, edible landscape – fruit and nut trees, berries, medicinal herbs, ponds, wetlands and wild places.</span>
-      <span class="cs">Z lesů zničených kůrovcem a z polí a luk vyčerpaných chemií a udusaných těžkou technikou děláme živou, jedlou krajinu – ovocné a ořechové stromy, keře, léčivky, tůně, mokřady a divoká místa.</span>
+      Z lesů zničených kůrovcem a z polí a luk vyčerpaných chemií a udusaných těžkou technikou děláme živou, jedlou krajinu – ovocné a ořechové stromy, keře, léčivky, tůně, mokřady a divoká místa.
     </p>
-    <p class="badge"><span class="en">A philanthropic project – everyone is welcome to join.</span><span class="cs">Filantropický projekt – přidat se může každý.</span></p>
-    <a href="#mission" class="btn"><span class="en">Our mission</span><span class="cs">Naše mise</span></a>
-    <a href="#join" class="btn btn-outline"><span class="en">Join us</span><span class="cs">Přidejte se</span></a>
+    <p class="badge">Filantropický projekt – přidat se může každý.</p>
+    <a href="#mission" class="btn">Naše mise</a>
+    <a href="#join" class="btn btn-outline">Přidejte se</a>
   </div>
 </section>
 
@@ -43,38 +142,36 @@
 <section id="mission" class="mission">
   <div class="mission-inner">
     <div class="mv">
-      <p class="kicker"><span class="en">Vision</span><span class="cs">Vize</span></p>
-      <h2><span class="en">Landscapes that give more than they take</span><span class="cs">Krajina, která dává víc, než si bere</span></h2>
+      <p class="kicker">Vize</p>
+      <h2>Krajina, která dává víc, než si bere</h2>
       <p>
-        <span class="en">We see dead monoculture forests and exhausted fields and meadows turning into living, edible landscapes that hold water, rebuild soil, shelter wildlife and feed local people – and places where anyone can see that independent, sustainable living really works.</span>
-        <span class="cs">Vidíme, jak se mrtvé monokulturní lesy i vyčerpaná pole a louky mění v živou, jedlou krajinu, která drží vodu, obnovuje půdu, chrání divokou přírodu a živí místní lidi – a v místa, kde se každý může přesvědčit, že nezávislý a udržitelný život opravdu funguje.</span>
+        Vidíme, jak se mrtvé monokulturní lesy i vyčerpaná pole a louky mění v živou, jedlou krajinu, která drží vodu, obnovuje půdu, chrání divokou přírodu a živí místní lidi – a v místa, kde se každý může přesvědčit, že nezávislý a udržitelný život opravdu funguje.
       </p>
     </div>
     <div class="mv">
-      <p class="kicker"><span class="en">Mission</span><span class="cs">Mise</span></p>
-      <h2><span class="en">Restore, share, show the way</span><span class="cs">Obnovit, sdílet, ukázat cestu</span></h2>
+      <p class="kicker">Mise</p>
+      <h2>Obnovit, sdílet, ukázat cestu</h2>
       <p>
-        <span class="en">We restore damaged land with care and patience, keep old varieties alive, share what we grow and what we learn, and openly test solutions for life without fossil fuels.</span>
-        <span class="cs">S péčí a trpělivostí obnovujeme poškozenou půdu, udržujeme staré odrůdy, sdílíme to, co vypěstujeme i co se naučíme, a otevřeně testujeme řešení pro život bez fosilních paliv.</span>
+        S péčí a trpělivostí obnovujeme poškozenou půdu, udržujeme staré odrůdy, sdílíme to, co vypěstujeme i co se naučíme, a otevřeně testujeme řešení pro život bez fosilních paliv.
       </p>
     </div>
   </div>
   <div class="mission-values">
     <div>
-      <h3><span class="en">Purpose first</span><span class="cs">Smysl na prvním místě</span></h3>
-      <p><span class="en">Revitales is a philanthropic project. Restoring the land comes first – everything else follows.</span><span class="cs">Revitales je filantropický projekt. Na prvním místě je obnova půdy – vše ostatní přichází samo.</span></p>
+      <h3>Smysl na prvním místě</h3>
+      <p>Revitales je filantropický projekt. Na prvním místě je obnova půdy – vše ostatní přichází samo.</p>
       <details class="more">
-        <summary><span class="en">And what about profit?</span><span class="cs">A co zisk?</span></summary>
-        <p><span class="en">Profit is not the goal – it is a secondary, logical result. When damaged land is healed, the outcome is a perfect place to live, surrounded by fruit, nuts and berries growing naturally, with clean water and rich soil. And it is a place where everyone is welcome to enjoy nature as it truly is – in its natural state and harmony.</span><span class="cs">Zisk není cílem – je druhotným, logickým výsledkem. Když se zničená půda uzdraví, vznikne dokonalé místo pro život obklopené přirozeně rostoucími plody, s čistou vodou a živou půdou. A je to místo, kde je každý vítán, aby si užil přírodu v její přirozenosti a harmonii.</span></p>
+        <summary>A co zisk?</summary>
+        <p>Zisk není cílem – je druhotným, logickým výsledkem. Když se zničená půda uzdraví, vznikne dokonalé místo pro život obklopené přirozeně rostoucími plody, s čistou vodou a živou půdou. A je to místo, kde je každý vítán, aby si užil přírodu v její přirozenosti a harmonii.</p>
       </details>
     </div>
     <div>
-      <h3><span class="en">Open to everyone</span><span class="cs">Otevřený všem</span></h3>
-      <p><span class="en">No membership, no fees, no experience needed. If you care about nature, you belong here.</span><span class="cs">Žádné členství, žádné poplatky, žádné zkušenosti nejsou potřeba. Pokud vám záleží na přírodě, patříte sem.</span></p>
+      <h3>Otevřený všem</h3>
+      <p>Žádné členství, žádné poplatky, žádné zkušenosti nejsou potřeba. Pokud vám záleží na přírodě, patříte sem.</p>
     </div>
     <div>
-      <h3><span class="en">For generations</span><span class="cs">Pro další generace</span></h3>
-      <p><span class="en">We plant trees whose shade we may never sit in. The real return is a healthier landscape for those who come after us.</span><span class="cs">Sázíme stromy, v jejichž stínu možná nikdy sedět nebudeme. Skutečným výnosem je zdravější krajina pro ty, kdo přijdou po nás.</span></p>
+      <h3>Pro další generace</h3>
+      <p>Sázíme stromy, v jejichž stínu možná nikdy sedět nebudeme. Skutečným výnosem je zdravější krajina pro ty, kdo přijdou po nás.</p>
     </div>
   </div>
 </section>
@@ -82,175 +179,161 @@
 <!-- STORY -->
 <section id="story" class="section split">
   <div>
-    <h2><span class="en">Where we start</span><span class="cs">Odkud začínáme</span></h2>
+    <h2>Odkud začínáme</h2>
     <p>
-      <span class="en">The name <strong>Revitales</strong> joins two Czech words: <em>revitalizace</em> (revitalisation) and <em>les</em> (forest).</span>
-      <span class="cs">Název <strong>Revitales</strong> spojuje dvě slova: <em>revitalizace</em> a <em>les</em>.</span>
+      Název <strong>Revitales</strong> spojuje dvě slova: <em>revitalizace</em> a <em>les</em>.
     </p>
     <p>
-      <span class="en">It all began in the forest. Like much of Central Europe, the land was planted as a spruce monoculture. The huge bark beetle outbreak of recent years killed it, leaving clearcuts with very acidic, tired soil. Our first idea was simple: buy these clearcuts and, instead of replanting the same thing, build an <strong>edible forest orchard</strong>.</span>
-      <span class="cs">Všechno začalo v lese. Jako velká část střední Evropy byla i tahle půda osázená smrkovou monokulturou. Kůrovcová kalamita ji zničila a zůstaly holiny s velmi kyselou, vyčerpanou půdou. První myšlenka byla jednoduchá: tyto holiny odkoupit a místo toho, abychom vysadili totéž znovu, založit <strong>jedlý lesní sad</strong>.</span>
+      Všechno začalo v lese. Jako velká část střední Evropy byla i tahle půda osázená smrkovou monokulturou. Kůrovcová kalamita ji zničila a zůstaly holiny s velmi kyselou, vyčerpanou půdou. První myšlenka byla jednoduchá: tyto holiny odkoupit a místo toho, abychom vysadili totéž znovu, založit <strong>jedlý lesní sad</strong>.
     </p>
     <p>
-      <span class="en">Very quickly we saw that the forest is not the only wounded land. Fields and meadows around us are just as exhausted – poisoned by years of chemicals, compacted by heavy machinery, drained so that water runs straight off. Soil like that cannot breathe, hold water or support life.</span>
-      <span class="cs">Velmi rychle jsme ale viděli, že les není jediná zraněná půda. Pole a louky kolem nás jsou stejně vyčerpané – roky ničené chemií, udusané těžkými stroji, odvodněné tak, že voda hned odteče. Taková půda nedýchá, nedrží vodu a neunese život.</span>
+      Velmi rychle jsme ale viděli, že les není jediná zraněná půda. Pole a louky kolem nás jsou stejně vyčerpané – roky ničené chemií, udusané těžkými stroji, odvodněné tak, že voda hned odteče. Taková půda nedýchá, nedrží vodu a neunese život.
     </p>
     <p>
-      <span class="en">So the mission grew: whether it is a dead spruce stand, a worn-out field or a compacted meadow, we give it the same answer – an <strong>edible orchard with wetlands</strong>, a diverse and resilient system that feeds people, wildlife and the soil itself.</span>
-      <span class="cs">Mise se proto rozrostla: ať jde o mrtvou smrčinu, vyžilé pole nebo udusanou louku, dáváme jim stejnou odpověď – <strong>jedlý sad s mokřady</strong>, pestrý a odolný systém, který živí lidi, zvířata i samotnou půdu.</span>
+      Mise se proto rozrostla: ať jde o mrtvou smrčinu, vyžilé pole nebo udusanou louku, dáváme jim stejnou odpověď – <strong>jedlý sad s mokřady</strong>, pestrý a odolný systém, který živí lidi, zvířata i samotnou půdu.
     </p>
   </div>
   <figure>
-    <img src="images/clearcut-slope.jpg" alt="Clearcut slope after bark beetle with stumps and young plantings" loading="lazy">
-    <figcaption><span class="en">A former spruce stand – stumps, fences and the first new plantings.</span><span class="cs">Bývalá smrčina – pařezy, oplocenky a první výsadby.</span></figcaption>
+    <picture><source type="image/webp" srcset="images/clearcut-slope-900.webp 900w, images/clearcut-slope.webp 1800w" sizes="(max-width: 800px) 100vw, 50vw"><img src="images/clearcut-slope.jpg" width="1800" height="1350" alt="Kůrovcová holina po smrkové monokultuře s pařezy, oplocenkami a prvními výsadbami budoucího jedlého lesa" loading="lazy" decoding="async"></picture>
+    <figcaption>Bývalá smrčina – pařezy, oplocenky a první výsadby.</figcaption>
   </figure>
 </section>
 
 <!-- TWO KINDS OF DAMAGED LAND -->
 <section class="section landtypes">
-  <h2><span class="en">Two kinds of damaged land, one answer</span><span class="cs">Dva druhy zničené půdy, jedna odpověď</span></h2>
+  <h2>Dva druhy zničené půdy, jedna odpověď</h2>
   <div class="compare">
     <div class="land">
-      <h3>🌲 <span class="en">Spruce clearcuts</span><span class="cs">Smrkové holiny</span></h3>
-      <p class="problem"><b><span class="en">Problem:</span><span class="cs">Problém:</span></b> <span class="en">dead monoculture, very acidic soil, no shade, drying out.</span><span class="cs">mrtvá monokultura, velmi kyselá půda, žádný stín, vysychání.</span></p>
-      <p><b><span class="en">What we do:</span><span class="cs">Co děláme:</span></b> <span class="en">raise the pH with compost and mulch, plant nut and fruit trees in layers, dig ponds in the hollows.</span><span class="cs">zvedáme pH kompostem a mulčem, sázíme ořešáky a ovocné stromy v patrech, v terénních sníženinách hloubíme tůně.</span></p>
+      <h3>🌲 Smrkové holiny</h3>
+      <p class="problem"><b>Problém:</b> mrtvá monokultura, velmi kyselá půda, žádný stín, vysychání.</p>
+      <p><b>Co děláme:</b> zvedáme pH kompostem a mulčem, sázíme ořešáky a ovocné stromy v patrech, v terénních sníženinách hloubíme tůně.</p>
     </div>
     <div class="land">
-      <h3>🌾 <span class="en">Fields &amp; meadows</span><span class="cs">Pole a louky</span></h3>
-      <p class="problem"><b><span class="en">Problem:</span><span class="cs">Problém:</span></b> <span class="en">soil poisoned by chemicals, compacted by heavy machines, drained – water runs off, life disappears.</span><span class="cs">půda zničená chemií, udusaná těžkými stroji, odvodněná – voda odtéká, život mizí.</span></p>
-      <p><b><span class="en">What we do:</span><span class="cs">Co děláme:</span></b> <span class="en">loosen the soil with deep-rooting plants, bring back microbes with compost, restore wetlands, plant orchards and hedgerows.</span><span class="cs">kypříme půdu hluboko kořenícími rostlinami, kompostem vracíme mikroby, obnovujeme mokřady, sázíme sady a remízky.</span></p>
+      <h3>🌾 Pole a louky</h3>
+      <p class="problem"><b>Problém:</b> půda zničená chemií, udusaná těžkými stroji, odvodněná – voda odtéká, život mizí.</p>
+      <p><b>Co děláme:</b> kypříme půdu hluboko kořenícími rostlinami, kompostem vracíme mikroby, obnovujeme mokřady, sázíme sady a remízky.</p>
     </div>
   </div>
   <p class="result">
-    <span class="en">➜ The result in both cases: an <strong>edible orchard with wetlands</strong> – food, water, shade and a home for wildlife.</span>
-    <span class="cs">➜ Výsledek v obou případech: <strong>jedlý sad s mokřady</strong> – jídlo, voda, stín a domov pro divokou přírodu.</span>
+    ➜ Výsledek v obou případech: <strong>jedlý sad s mokřady</strong> – jídlo, voda, stín a domov pro divokou přírodu.
   </p>
 </section>
 
 <!-- NUMBERS -->
 <section class="stats">
-  <div><b>≈ 5 ha</b><span class="en">of land</span><span class="cs">půdy</span></div>
-  <div><b>7</b><span class="en">locations</span><span class="cs">lokalit</span></div>
-  <div><b>4</b><span class="en">main themes: trees for generations, fruit &amp; berries,<br>wetlands &amp; meadows, herbs &amp; wild zones</span><span class="cs">hlavní témata: stromy na generace, ovoce a bobule,<br>mokřady a louky, bylinky a divočina</span></div>
+  <div><b>≈ 5 ha</b>půdy</div>
+  <div><b>7</b>lokalit</div>
+  <div><b>4</b>hlavní témata: stromy na generace, ovoce a bobule,<br>mokřady a louky, bylinky a divočina</div>
 </section>
 
 <!-- SITES -->
 <section id="sites" class="section">
-  <h2><span class="en">Seven places, each with its own character</span><span class="cs">Sedm míst, každé má svou povahu</span></h2>
+  <h2>Sedm míst, každé má svou povahu</h2>
   <p class="intro">
-    <span class="en">We care for about five hectares spread over seven locations. Each one gets its own focus, so together they form a varied, living collection. The main themes are:</span>
-    <span class="cs">Staráme se zhruba o pět hektarů na sedmi místech. Každé dostane vlastní zaměření, takže dohromady vznikne pestrá živá sbírka. Hlavní témata jsou:</span>
+    Staráme se zhruba o pět hektarů na sedmi místech. Každé dostane vlastní zaměření, takže dohromady vznikne pestrá živá sbírka. Hlavní témata jsou:
   </p>
   <div class="cards">
     <article class="card">
-      <h3><span class="en">Long-term trees</span><span class="cs">Stromy na generace</span></h3>
-      <p><span class="en">Slow-growing giants for the next generations – walnuts, sweet chestnuts and, for example, the fascinating service tree (Sorbus domestica).</span><span class="cs">Pomalu rostoucí velikáni pro další generace – ořešáky, jedlé kaštany a např. velmi zajímavý jeřáb oskeruše.</span></p>
+      <h3>Stromy na generace</h3>
+      <p>Pomalu rostoucí velikáni pro další generace – ořešáky, jedlé kaštany a např. velmi zajímavý jeřáb oskeruše.</p>
     </article>
     <article class="card">
-      <h3><span class="en">Fruit &amp; berries</span><span class="cs">Ovoce a bobule</span></h3>
-      <p><span class="en">Fruit trees combined with berry bushes in layers, giving harvests within a few years.</span><span class="cs">Ovocné stromy v patrech s bobulovinami – úroda už během několika let.</span></p>
+      <h3>Ovoce a bobule</h3>
+      <p>Ovocné stromy v patrech s bobulovinami – úroda už během několika let.</p>
     </article>
     <article class="card">
-      <h3><span class="en">Wetlands &amp; meadows</span><span class="cs">Mokřady a louky</span></h3>
-      <p><span class="en">Former fields and compacted meadows brought back to life with ponds, wetlands and orchards that hold water and shelter amphibians.</span><span class="cs">Bývalá pole a udusané louky oživené tůněmi, mokřady a sady, které drží vodu a dávají útočiště obojživelníkům.</span></p>
+      <h3>Mokřady a louky</h3>
+      <p>Bývalá pole a udusané louky oživené tůněmi, mokřady a sady, které drží vodu a dávají útočiště obojživelníkům.</p>
     </article>
     <article class="card">
-      <h3><span class="en">Herbs &amp; wild zones</span><span class="cs">Bylinky a divočina</span></h3>
-      <p><span class="en">Medicinal herbs plus <a href="#wild">“no-go” wild zones</a> – nature’s own laboratory.</span><span class="cs">Léčivé byliny a <a href="#wild">„zakázané“ divoké zóny</a> – laboratoř samotné přírody.</span></p>
+      <h3>Bylinky a divočina</h3>
+      <p>Léčivé byliny a <a href="#wild">„zakázané“ divoké zóny</a> – laboratoř samotné přírody.</p>
     </article>
   </div>
-  <p class="note"><span class="en">The themes above are a guide – the final layout of each site will follow its soil, water and slope.</span><span class="cs">Témata jsou orientační – konečné uspořádání každého místa se řídí půdou, vodou a svahem.</span></p>
+  <p class="note">Témata jsou orientační – konečné uspořádání každého místa se řídí půdou, vodou a svahem.</p>
 </section>
 
 <!-- WORK -->
 <section id="work" class="section alt">
-  <h2><span class="en">What we do</span><span class="cs">Co děláme</span></h2>
+  <h2>Co děláme</h2>
   <div class="grid">
-    <div class="item"><i>💧</i><h3><span class="en">Ponds &amp; wetlands</span><span class="cs">Tůně a mokřady</span></h3><p><span class="en">Digging ponds and restoring wetlands to keep water in the landscape and create cooler, moister microclimates.</span><span class="cs">Hloubíme tůně a obnovujeme mokřady, aby voda zůstala v krajině a vzniklo vlhčí a chladnější mikroklima.</span></p></div>
-    <div class="item"><i>🍎</i><h3><span class="en">Local food</span><span class="cs">Místní jídlo</span></h3><p><span class="en">Supporting local food self-sufficiency with fruit, nuts, berries, herbs and wild vegetables.</span><span class="cs">Podporujeme místní soběstačnost v jídle – ovoce, ořechy, bobule, byliny a divoká zelenina.</span></p></div>
-    <div class="item"><i>🌱</i><h3><span class="en">Living soil</span><span class="cs">Živá půda</span></h3><p><span class="en">Healing acidic forest soil and chemically exhausted, machine-compacted fields – composting until we produce a surplus.</span><span class="cs">Léčíme kyselou lesní půdu i chemií vyčerpaná a stroji udusaná pole – kompostujeme, až budeme mít přebytek.</span></p></div>
-    <div class="item"><i>🧬</i><h3><span class="en">Gene bank</span><span class="cs">Genofond</span></h3><p><span class="en">Preserving old local varieties and bringing in valuable ones from elsewhere.</span><span class="cs">Uchováváme staré místní odrůdy a přivážíme cenné odrůdy odjinud.</span></p></div>
-    <div class="item"><i>🐸</i><h3><span class="en">Biodiversity</span><span class="cs">Biodiverzita</span></h3><p><span class="en">Wild zones for insects, birds, amphibians, tiny crustaceans and soil microbes.</span><span class="cs">Divoké zóny pro hmyz, ptáky, obojživelníky, drobné korýše a půdní mikroby.</span></p></div>
-    <div class="item"><i>🌳</i><h3><span class="en">Tree cloning</span><span class="cs">Klonování stromů</span></h3><p><span class="en">Propagating the best and toughest trees by grafting and cuttings, so good genetics multiply.</span><span class="cs">Množíme nejlepší a nejodolnější stromy roubováním a řízkováním, aby se dobrá genetika šířila.</span></p></div>
-    <div class="item"><i>🧘</i><h3><span class="en">A place to slow down</span><span class="cs">Místo ke zpomalení</span></h3><p><span class="en">Space to rest, observe and learn from the quiet laws of nature.</span><span class="cs">Prostor odpočinout si, pozorovat a učit se z tichých zákonů přírody.</span></p></div>
-    <div class="item"><i>☀️</i><h3><span class="en">Off-grid testbed</span><span class="cs">Testování off-grid</span></h3><p><span class="en">A real site for testing energy for independent living – see below.</span><span class="cs">Skutečné místo pro testování energie pro nezávislé bydlení – viz níže.</span></p></div>
+    <div class="item"><i>💧</i><h3>Tůně a mokřady</h3><p>Hloubíme tůně a obnovujeme mokřady, aby voda zůstala v krajině a vzniklo vlhčí a chladnější mikroklima.</p></div>
+    <div class="item"><i>🍎</i><h3>Místní jídlo</h3><p>Podporujeme místní soběstačnost v jídle – ovoce, ořechy, bobule, byliny a divoká zelenina.</p></div>
+    <div class="item"><i>🌱</i><h3>Živá půda</h3><p>Léčíme kyselou lesní půdu i chemií vyčerpaná a stroji udusaná pole – kompostujeme, až budeme mít přebytek.</p></div>
+    <div class="item"><i>🧬</i><h3>Genofond</h3><p>Uchováváme staré místní odrůdy a přivážíme cenné odrůdy odjinud.</p></div>
+    <div class="item"><i>🐸</i><h3>Biodiverzita</h3><p>Divoké zóny pro hmyz, ptáky, obojživelníky, drobné korýše a půdní mikroby.</p></div>
+    <div class="item"><i>🌳</i><h3>Klonování stromů</h3><p>Množíme nejlepší a nejodolnější stromy roubováním a řízkováním, aby se dobrá genetika šířila.</p></div>
+    <div class="item"><i>🧘</i><h3>Místo ke zpomalení</h3><p>Prostor odpočinout si, pozorovat a učit se z tichých zákonů přírody.</p></div>
+    <div class="item"><i>☀️</i><h3>Testování off-grid</h3><p>Skutečné místo pro testování energie pro nezávislé bydlení – viz níže.</p></div>
   </div>
 </section>
 
 <!-- WILD ZONES -->
 <section id="wild" class="section wild">
-  <h2><span class="en">“No-go” zones – nature’s laboratory</span><span class="cs">„Zakázané“ zóny – laboratoř přírody</span></h2>
+  <h2>„Zakázané“ zóny – laboratoř přírody</h2>
   <p class="intro">
-    <span class="en">On every site we leave parts where people step back and nature leads. “No-go” does not mean empty – the opposite. We fill these zones with as much variety as possible, then watch what nature builds from it.</span>
-    <span class="cs">Na každém pozemku necháváme části, kde člověk ustoupí a vede příroda. „Zakázané“ neznamená prázdné – právě naopak. Tyto zóny co nejvíc obohatíme o rozmanitost a pak sledujeme, co z ní příroda sama postaví.</span>
+    Na každém pozemku necháváme části, kde člověk ustoupí a vede příroda. „Zakázané“ neznamená prázdné – právě naopak. Tyto zóny co nejvíc obohatíme o rozmanitost a pak sledujeme, co z ní příroda sama postaví.
   </p>
   <div class="grid">
-    <div class="item"><i>🪨</i><h3><span class="en">Stones of every kind</span><span class="cs">Kamení všeho druhu</span></h3><p><span class="en">Piles, dry-stone walls and scattered rocks of different types and sizes – warm spots for lizards and insects, shelter for amphibians, minerals slowly returning to the soil.</span><span class="cs">Hromady, suché zídky a rozházené kameny různých druhů a velikostí – vyhřátá místa pro ještěrky a hmyz, úkryty pro obojživelníky, minerály, které se pomalu vracejí do půdy.</span></p></div>
-    <div class="item"><i>🌿</i><h3><span class="en">The widest mix of woody plants</span><span class="cs">Co nejvíc druhů dřevin</span></h3><p><span class="en">Native trees and shrubs side by side with rarer species – willows, alders, oaks, rowans, hawthorns, wild roses and many more – each feeding different insects, birds and fungi.</span><span class="cs">Původní stromy a keře vedle vzácnějších druhů – vrby, olše, duby, jeřáby, hlohy, šípky a mnoho dalších – každá dřevina živí jiný hmyz, ptáky a houby.</span></p></div>
-    <div class="item"><i>🪵</i><h3><span class="en">Dead wood &amp; water</span><span class="cs">Mrtvé dřevo a voda</span></h3><p><span class="en">Fallen trunks, stumps and branch piles left to rot, next to pools and wet hollows – the richest habitats of all, full of beetles, fungi, newts and microbes.</span><span class="cs">Padlé kmeny, pařezy a hromady větví ponechané zetlít vedle tůněk a mokrých sníženin – nejbohatší biotopy vůbec, plné brouků, hub, čolků a mikrobů.</span></p></div>
-    <div class="item"><i>🔍</i><h3><span class="en">Observing interactions</span><span class="cs">Zkoumání vztahů v přírodě</span></h3><p><span class="en">We watch and record who arrives, what grows where, how soil, water, plants and animals influence each other – and carry the lessons into our orchards.</span><span class="cs">Sledujeme a zapisujeme, kdo přichází, co kde roste a jak se navzájem ovlivňují půda, voda, rostliny a živočichové – a poznatky přenášíme do našich sadů.</span></p></div>
+    <div class="item"><i>🪨</i><h3>Kamení všeho druhu</h3><p>Hromady, suché zídky a rozházené kameny různých druhů a velikostí – vyhřátá místa pro ještěrky a hmyz, úkryty pro obojživelníky, minerály, které se pomalu vracejí do půdy.</p></div>
+    <div class="item"><i>🌿</i><h3>Co nejvíc druhů dřevin</h3><p>Původní stromy a keře vedle vzácnějších druhů – vrby, olše, duby, jeřáby, hlohy, šípky a mnoho dalších – každá dřevina živí jiný hmyz, ptáky a houby.</p></div>
+    <div class="item"><i>🪵</i><h3>Mrtvé dřevo a voda</h3><p>Padlé kmeny, pařezy a hromady větví ponechané zetlít vedle tůněk a mokrých sníženin – nejbohatší biotopy vůbec, plné brouků, hub, čolků a mikrobů.</p></div>
+    <div class="item"><i>🔍</i><h3>Zkoumání vztahů v přírodě</h3><p>Sledujeme a zapisujeme, kdo přichází, co kde roste a jak se navzájem ovlivňují půda, voda, rostliny a živočichové – a poznatky přenášíme do našich sadů.</p></div>
   </div>
-  <p class="note"><span class="en">Visitors are welcome to observe these zones from paths and viewpoints – quietly, so the experiment can run undisturbed.</span><span class="cs">Návštěvníci mohou zóny pozorovat z cestiček a vyhlídek – potichu, aby experiment běžel nerušeně.</span></p>
+  <p class="note">Návštěvníci mohou zóny pozorovat z cestiček a vyhlídek – potichu, aby experiment běžel nerušeně.</p>
 </section>
 
 <!-- VARIETIES -->
 <section class="section split reverse">
   <figure>
-    <img src="images/meadow.jpg" alt="Spring meadow between tree lines" loading="lazy">
-    <figcaption><span class="en">A meadow we are bringing back to life.</span><span class="cs">Louka, kterou vracíme k životu.</span></figcaption>
+    <picture><source type="image/webp" srcset="images/meadow-900.webp 900w, images/meadow.webp 1350w" sizes="(max-width: 800px) 100vw, 50vw"><img src="images/meadow.jpg" width="1350" height="1800" alt="Jarní louka mezi stromořadími, kterou Revitales vrací k životu" loading="lazy" decoding="async"></picture>
+    <figcaption>Louka, kterou vracíme k životu.</figcaption>
   </figure>
   <div>
-    <h2><span class="en">Where our trees come from</span><span class="cs">Odkud bereme stromy</span></h2>
+    <h2>Odkud bereme stromy</h2>
     <p>
-      <span class="en">Most varieties come from family-run Moravian nurseries that keep old cultivars alive:</span>
-      <span class="cs">Většinu odrůd bereme z rodinných moravských školek, které udržují staré odrůdy:</span>
+      Většinu odrůd bereme z rodinných moravských školek, které udržují staré odrůdy:
     </p>
     <ul class="links">
-      <li><a href="https://www.stareodrudy.org" target="_blank" rel="noopener">stareodrudy.org</a> – <span class="en">old fruit varieties</span><span class="cs">staré odrůdy ovoce</span></li>
-      <li><a href="https://www.skolka-stastny.cz" target="_blank" rel="noopener">skolka-stastny.cz</a> – <span class="en">nursery run by a passionate couple</span><span class="cs">školka zapáleného manželského páru</span></li>
+      <li><a href="https://www.stareodrudy.org" target="_blank" rel="noopener">stareodrudy.org</a> – staré odrůdy ovoce</li>
+      <li><a href="https://www.skolka-stastny.cz" target="_blank" rel="noopener">skolka-stastny.cz</a> – školka zapáleného manželského páru</li>
     </ul>
-    <p>
-      <span class="en">We also plan to work with</span><span class="cs">Plánujeme spolupráci také s</span>
-      <a href="https://www.rareseeds.com" target="_blank" rel="noopener">rareseeds.com</a>
-      <span class="en">and with permaculture projects in India.</span><span class="cs">a s permakulturními projekty v Indii.</span>
+    <p>Plánujeme spolupráci také s
+      <a href="https://www.rareseeds.com" target="_blank" rel="noopener">rareseeds.com</a>a s permakulturními projekty v Indii.
     </p>
   </div>
 </section>
 
 <!-- NGENI -->
 <section id="ngeni" class="section ngeni">
-  <h2><span class="en">An open test site for off-grid energy</span><span class="cs">Otevřené testovací místo pro off-grid energii</span></h2>
+  <h2>Otevřené testovací místo pro off-grid energii</h2>
   <p class="intro">
-    <span class="en">Revitales is the parent site for the <strong>nGeni GreenBox</strong> from the Fourth Transition Initiative – a mechanical, solar-thermal machine designed to recycle energy and capture carbon directly from the air. A farm with no grid connection is the ideal place to find out what it really does.</span>
-    <span class="cs">Revitales je mateřským místem pro <strong>nGeni GreenBox</strong> od iniciativy Fourth Transition – mechanický stroj poháněný sluneční tepelnou energií, navržený k recyklaci energie a přímému záchytu uhlíku ze vzduchu. Farma bez připojení k síti je ideální místo, kde zjistit, co skutečně umí.</span>
+    Revitales je mateřským místem pro <strong>nGeni GreenBox</strong> od iniciativy Fourth Transition – mechanický stroj poháněný sluneční tepelnou energií, navržený k recyklaci energie a přímému záchytu uhlíku ze vzduchu. Farma bez připojení k síti je ideální místo, kde zjistit, co skutečně umí.
   </p>
 
   <div class="thermo">
     <div class="box">
-      <h3><span class="en">The idea in plain words</span><span class="cs">Myšlenka jednoduše</span></h3>
+      <h3>Myšlenka jednoduše</h3>
       <p>
-        <span class="en">Energy is never created from nothing – it only moves and changes form (the first law of thermodynamics). The surroundings, however, are full of free low-grade heat: sun-warmed air, soil and water.</span>
-        <span class="cs">Energie nikdy nevzniká z ničeho – jen se přesouvá a mění podobu (první zákon termodynamiky). Okolí je ale plné volného nízkopotenciálního tepla: vzduchu, půdy a vody ohřátých sluncem.</span>
+        Energie nikdy nevzniká z ničeho – jen se přesouvá a mění podobu (první zákon termodynamiky). Okolí je ale plné volného nízkopotenciálního tepla: vzduchu, půdy a vody ohřátých sluncem.
       </p>
       <p>
-        <span class="en">A heat pump uses 1 kWh of electricity to deliver 3–4 kWh of heat, because it collects the rest from the environment. nGeni’s makers describe “over 100% efficiency at the point of use” in the same sense: <em>you pay for less energy than you get, because the sun and the surroundings supply the difference.</em></span>
-        <span class="cs">Tepelné čerpadlo z 1 kWh elektřiny dodá 3–4 kWh tepla, protože zbytek sebere z okolí. Tvůrci nGeni mluví o „účinnosti přes 100 % v místě použití“ ve stejném smyslu: <em>platíte za méně energie, než dostanete, protože rozdíl dodá slunce a okolí.</em></span>
+        Tepelné čerpadlo z 1 kWh elektřiny dodá 3–4 kWh tepla, protože zbytek sebere z okolí. Tvůrci nGeni mluví o „účinnosti přes 100 % v místě použití“ ve stejném smyslu: <em>platíte za méně energie, než dostanete, protože rozdíl dodá slunce a okolí.</em>
       </p>
     </div>
     <div class="box">
-      <h3><span class="en">How we test it</span><span class="cs">Jak to testujeme</span></h3>
+      <h3>Jak to testujeme</h3>
       <ol>
-        <li><span class="en"><b>Measure every input</b> – sunlight, ambient heat, any stored energy.</span><span class="cs"><b>Měříme každý vstup</b> – sluneční záření, teplo z okolí, uloženou energii.</span></li>
-        <li><span class="en"><b>Measure every output</b> – electricity, heat, cooling, water, captured CO₂.</span><span class="cs"><b>Měříme každý výstup</b> – elektřinu, teplo, chlazení, vodu, zachycený CO₂.</span></li>
-        <li><span class="en"><b>Check the balance</b> – inputs and outputs must add up. That is how real-world performance is proven.</span><span class="cs"><b>Kontrolujeme bilanci</b> – vstupy a výstupy musí sedět. Tak se prokazuje skutečný výkon.</span></li>
-        <li><span class="en"><b>Live with it</b> – does it run a real off-grid farm through a Czech winter?</span><span class="cs"><b>Žijeme s tím</b> – utáhne skutečnou off-grid farmu přes českou zimu?</span></li>
+        <li><b>Měříme každý vstup</b> – sluneční záření, teplo z okolí, uloženou energii.</li>
+        <li><b>Měříme každý výstup</b> – elektřinu, teplo, chlazení, vodu, zachycený CO₂.</li>
+        <li><b>Kontrolujeme bilanci</b> – vstupy a výstupy musí sedět. Tak se prokazuje skutečný výkon.</li>
+        <li><b>Žijeme s tím</b> – utáhne skutečnou off-grid farmu přes českou zimu?</li>
       </ol>
     </div>
   </div>
 
   <p class="intro">
-    <span class="en">The goal: show that fully independent, off-grid living is possible without fossil fuels and without extraction-heavy technologies – and do it openly, with measured data instead of promises.</span>
-    <span class="cs">Cíl: ukázat, že plně nezávislé bydlení mimo síť je možné bez fosilních paliv a bez technologií náročných na těžbu surovin – a ukázat to otevřeně, na naměřených datech místo slibů.</span>
+    Cíl: ukázat, že plně nezávislé bydlení mimo síť je možné bez fosilních paliv a bez technologií náročných na těžbu surovin – a ukázat to otevřeně, na naměřených datech místo slibů.
   </p>
   <ul class="pills">
     <li><a href="https://ngeni.com.au" target="_blank" rel="noopener">ngeni.com.au</a></li>
@@ -261,36 +344,34 @@
 
 <!-- GALLERY -->
 <section class="gallery">
-  <img src="images/winter-stream.jpg" alt="Stream below the clearcut slope in winter" loading="lazy">
-  <img src="images/clearcut-slope.jpg" alt="Clearcut slope in summer" loading="lazy">
-  <img src="images/meadow.jpg" alt="Meadow in spring" loading="lazy">
+  <picture><source type="image/webp" srcset="images/winter-stream-900.webp 900w, images/winter-stream.webp 1800w" sizes="(max-width: 800px) 100vw, 40vw"><img src="images/winter-stream.jpg" width="1800" height="1350" alt="Potok pod svahem kůrovcové holiny v zimě" loading="lazy" decoding="async"></picture>
+  <picture><source type="image/webp" srcset="images/clearcut-slope-900.webp 900w, images/clearcut-slope.webp 1800w" sizes="(max-width: 800px) 100vw, 40vw"><img src="images/clearcut-slope.jpg" width="1800" height="1350" alt="Svah bývalé smrčiny v létě – místo pro jedlý les" loading="lazy" decoding="async"></picture>
+  <picture><source type="image/webp" srcset="images/meadow-900.webp 900w, images/meadow.webp 1350w" sizes="(max-width: 800px) 100vw, 40vw"><img src="images/meadow.jpg" width="1350" height="1800" alt="Rozkvetlá louka na jaře" loading="lazy" decoding="async"></picture>
 </section>
 
 <!-- CONTACT -->
 <section id="join" class="section join">
-  <h2><span class="en">Join the mission</span><span class="cs">Přidejte se k misi</span></h2>
+  <h2>Přidejte se k misi</h2>
   <p class="intro">
-    <span class="en">Everyone is welcome – individuals, families, schools, gardeners, scientists, engineers, companies and other projects. Come for a day or stay for years. There are many ways to help:</span>
-    <span class="cs">Vítán je každý – jednotlivci, rodiny, školy, zahrádkáři, vědci, inženýři, firmy i jiné projekty. Přijeďte na den, nebo zůstaňte roky. Pomoct se dá mnoha způsoby:</span>
+    Vítán je každý – jednotlivci, rodiny, školy, zahrádkáři, vědci, inženýři, firmy i jiné projekty. Přijeďte na den, nebo zůstaňte roky. Pomoct se dá mnoha způsoby:
   </p>
   <div class="grid">
-    <div class="item"><i>🙌</i><h3><span class="en">Lend a hand</span><span class="cs">Přiložte ruku</span></h3><p><span class="en">Planting days, digging ponds, mulching, harvesting.</span><span class="cs">Sázení, kopání tůní, mulčování, sklizeň.</span></p></div>
-    <div class="item"><i>🌰</i><h3><span class="en">Share plants</span><span class="cs">Darujte rostliny</span></h3><p><span class="en">Seeds, scions, cuttings and old local varieties.</span><span class="cs">Semínka, rouby, řízky a staré místní odrůdy.</span></p></div>
-    <div class="item"><i>📚</i><h3><span class="en">Share knowledge</span><span class="cs">Sdílejte znalosti</span></h3><p><span class="en">Permaculture, soil, water, ecology, energy, measurement.</span><span class="cs">Permakultura, půda, voda, ekologie, energie, měření.</span></p></div>
-    <div class="item"><i>🤝</i><h3><span class="en">Support &amp; partner</span><span class="cs">Podpořte a spolupracujte</span></h3><p><span class="en">Tools, materials, donations or joint projects.</span><span class="cs">Nářadí, materiál, dary nebo společné projekty.</span></p></div>
+    <div class="item"><i>🙌</i><h3>Přiložte ruku</h3><p>Sázení, kopání tůní, mulčování, sklizeň.</p></div>
+    <div class="item"><i>🌰</i><h3>Darujte rostliny</h3><p>Semínka, rouby, řízky a staré místní odrůdy.</p></div>
+    <div class="item"><i>📚</i><h3>Sdílejte znalosti</h3><p>Permakultura, půda, voda, ekologie, energie, měření.</p></div>
+    <div class="item"><i>🤝</i><h3>Podpořte a spolupracujte</h3><p>Nářadí, materiál, dary nebo společné projekty.</p></div>
   </div>
 </section>
 
 <section id="contact" class="section contact">
-  <h2><span class="en">Get in touch</span><span class="cs">Kontakt</span></h2>
+  <h2>Kontakt</h2>
   <p class="intro">
-    <span class="en">Just write or call – we will gladly show you around and find a way for you to take part.</span>
-    <span class="cs">Stačí napsat nebo zavolat – rádi vás provedeme a najdeme způsob, jak se zapojit.</span>
+    Stačí napsat nebo zavolat – rádi vás provedeme a najdeme způsob, jak se zapojit.
   </p>
   <p style="font: 700 1.3rem Georgia, serif; color: var(--green-dark); margin: 0 0 1rem;">Honza Dobrovolný</p>
   <div class="contact-grid">
     <div><b>E-mail</b><a href="mailto:dob.jan@centrum.cz">dob.jan@centrum.cz</a></div>
-    <div><b><span class="en">Phone</span><span class="cs">Telefon</span></b><a href="tel:+420605570241">+420 605 570 241</a></div>
+    <div><b>Telefon</b><a href="tel:+420605570241">+420 605 570 241</a></div>
   </div>
 </section>
 
@@ -298,15 +379,5 @@
   <p>© 2026 Revitales</p>
 </footer>
 
-<script>
-  const btn = document.getElementById('lang');
-  function setLang(l) {
-    document.documentElement.lang = l;
-    btn.textContent = l === 'en' ? 'CZ' : 'EN';
-    localStorage.setItem('lang', l);
-  }
-  btn.addEventListener('click', () => setLang(document.documentElement.lang === 'en' ? 'cs' : 'en'));
-  setLang(localStorage.getItem('lang') || (navigator.language.startsWith('cs') ? 'cs' : 'en'));
-</script>
 </body>
 </html>
