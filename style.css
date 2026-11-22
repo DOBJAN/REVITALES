@@ -126,15 +126,17 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 
 /* stats */
 .stats {
-  display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap;
-  padding: 2.5rem 6vw; background: var(--green-dark); color: #fff; text-align: center;
+  display: flex; justify-content: center; align-items: center;
+  padding: 3rem 6vw; background: var(--green-dark); color: #fff; text-align: center;
 }
-.stats b { display: block; font: 700 2.4rem Georgia, serif; color: #cfe3a8; }
-.stats .themes-stat { display: flex; align-items: center; gap: 1.2rem; text-align: left; }
-.stats .themes-stat b { font-size: 4rem; line-height: 1; }
+.stats > div { padding: .4rem 3rem; color: #b9c7ad; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; }
+.stats > div + div { border-left: 1px solid rgba(207, 227, 168, .25); }
+.stats b { display: block; font: 700 3rem/1.1 Georgia, serif; color: #cfe3a8; letter-spacing: 0; text-transform: none; margin-bottom: .35rem; }
+.stats .themes-stat { display: flex; align-items: center; gap: 2.5rem; }
 .stats .themes {
-  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: .35rem 2rem;
-  margin: .7rem 0 0; padding: 0; list-style: none; text-align: left;
+  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: .5rem 2.2rem;
+  margin: 0; padding: 0; list-style: none; text-align: left;
+  color: #fff; font-size: 1rem; letter-spacing: 0; text-transform: none;
 }
 .stats .themes li { position: relative; padding-left: 1.1rem; }
 .stats .themes li::before {
@@ -202,7 +204,10 @@ footer { text-align: center; padding: 2rem; background: var(--green-dark); color
   .split.reverse figure { order: 2; }
   .gallery { grid-template-columns: 1fr; }
   .gallery img { height: 240px; }
-  .stats { gap: 2rem; }
+  .stats { flex-direction: column; padding: 2.5rem 6vw; }
+  .stats > div { padding: 1.4rem 0; width: 100%; }
+  .stats > div + div { border-left: 0; border-top: 1px solid rgba(207, 227, 168, .25); }
+  .stats .themes-stat { flex-direction: column; gap: 1.2rem; }
   .stats .themes { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
   .nav nav { gap: .7rem; }
   html { scroll-padding-top: 9rem; }
