@@ -130,6 +130,17 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
   padding: 2.5rem 6vw; background: var(--green-dark); color: #fff; text-align: center;
 }
 .stats b { display: block; font: 700 2.4rem Georgia, serif; color: #cfe3a8; }
+.stats .themes-stat { display: flex; align-items: center; gap: 1.2rem; text-align: left; }
+.stats .themes-stat b { font-size: 4rem; line-height: 1; }
+.stats .themes {
+  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(4, auto); grid-auto-flow: column; gap: .35rem 2rem;
+  margin: .7rem 0 0; padding: 0; list-style: none; text-align: left;
+}
+.stats .themes li { position: relative; padding-left: 1.1rem; }
+.stats .themes li::before {
+  content: ""; position: absolute; left: 0; top: .62em;
+  width: .45rem; height: .45rem; border-radius: 50%; background: #cfe3a8;
+}
 
 /* cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; margin-top: 2rem; }
@@ -192,6 +203,7 @@ footer { text-align: center; padding: 2rem; background: var(--green-dark); color
   .gallery { grid-template-columns: 1fr; }
   .gallery img { height: 240px; }
   .stats { gap: 2rem; }
+  .stats .themes { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
   .nav nav { gap: .7rem; }
   html { scroll-padding-top: 9rem; }
 }
