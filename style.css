@@ -133,7 +133,7 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 .stats .themes-stat { display: flex; align-items: center; gap: 1.2rem; text-align: left; }
 .stats .themes-stat b { font-size: 4rem; line-height: 1; }
 .stats .themes {
-  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(4, auto); grid-auto-flow: column; gap: .35rem 2rem;
+  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: .35rem 2rem;
   margin: .7rem 0 0; padding: 0; list-style: none; text-align: left;
 }
 .stats .themes li { position: relative; padding-left: 1.1rem; }
