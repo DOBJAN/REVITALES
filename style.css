@@ -131,7 +131,7 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 }
 .stats > div { padding: .4rem 3rem; color: #b9c7ad; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; }
 .stats > div + div { border-left: 1px solid rgba(207, 227, 168, .25); }
-.stats b { display: block; font: 700 3rem/1.1 Georgia, serif; color: #cfe3a8; letter-spacing: 0; text-transform: none; margin-bottom: .35rem; }
+.stats b { display: block; font: 700 3rem/1.1 Georgia, serif; color: #cfe3a8; letter-spacing: 0; text-transform: none; margin-bottom: .35rem; white-space: nowrap; }
 .stats .themes-stat { display: flex; align-items: center; gap: 2.5rem; }
 .stats .themes {
   display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: .5rem 2.2rem;
