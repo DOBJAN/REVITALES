@@ -134,11 +134,12 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 .stats b { display: block; font: 700 3rem/1.1 Georgia, serif; color: #cfe3a8; letter-spacing: 0; text-transform: none; margin-bottom: .35rem; white-space: nowrap; }
 .stats .themes-stat { display: flex; align-items: center; gap: 2.5rem; }
 .stats .themes {
-  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: .5rem 2.2rem;
+  display: grid; grid-template-columns: auto auto; grid-template-rows: repeat(4, auto); grid-auto-flow: column; gap: .5rem 2.2rem;
   margin: 0; padding: 0; list-style: none; text-align: left;
   color: #fff; font-size: 1rem; letter-spacing: 0; text-transform: none;
 }
 .stats .themes li { position: relative; padding-left: 1.1rem; }
+@media (min-width: 1200px) { .stats .themes li { white-space: nowrap; } }
 .stats .themes li::before {
   content: ""; position: absolute; left: 0; top: .62em;
   width: .45rem; height: .45rem; border-radius: 50%; background: #cfe3a8;
