@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://revitales.cz/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="cs" href="https://revitales.cz/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://revitales.cz/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://revitales.cz/"/>
@@ -14,21 +14,21 @@
   </url>
   <url>
     <loc>https://revitales.cz/en/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="cs" href="https://revitales.cz/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://revitales.cz/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://revitales.cz/"/>
   </url>
   <url>
     <loc>https://revitales.cz/stanovy.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="cs" href="https://revitales.cz/stanovy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://revitales.cz/en/statutes.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://revitales.cz/stanovy.html"/>
   </url>
   <url>
     <loc>https://revitales.cz/en/statutes.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="cs" href="https://revitales.cz/stanovy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://revitales.cz/en/statutes.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://revitales.cz/stanovy.html"/>

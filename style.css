@@ -145,6 +145,15 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
   width: .45rem; height: .45rem; border-radius: 50%; background: #cfe3a8;
 }
 
+/* locations map */
+.locations .motto { font: italic clamp(1.4rem, 3vw, 2rem) Georgia, serif; color: #3f7fa6; margin: -.5rem 0 1rem; }
+.map { margin: 2rem 0 1.6rem; }
+.map img { width: 100%; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+.sites-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: .8rem 1.4rem; }
+.sites-list li { display: flex; gap: .9rem; align-items: flex-start; background: #fff; border-radius: var(--radius); padding: .85rem 1.1rem; box-shadow: 0 4px 14px rgba(0,0,0,.06); color: var(--muted); font-size: .97rem; }
+.sites-list .n { flex: none; width: 2rem; height: 2rem; border-radius: 50%; background: var(--green); color: #fff; font-weight: 700; display: grid; place-items: center; margin-top: .1rem; }
+.sites-list b { display: block; color: var(--green-dark); font: 700 1.05rem Georgia, serif; }
+
 /* cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; margin-top: 2rem; }
 .card {
