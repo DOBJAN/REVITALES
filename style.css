@@ -116,7 +116,7 @@ html[lang="en"] .cs, html[lang="cs"] .en { display: none; }
 .section.alt { max-width: none; background: #ebe6d6; }
 .section.alt > * { max-width: 1200px; margin-left: auto; margin-right: auto; }
 .intro { max-width: 760px; font-size: 1.08rem; color: var(--muted); }
-.note { font-size: .9rem; color: var(--muted); font-style: italic; margin-top: 1.5rem; }
+.note { font-size: 1.08rem; color: var(--muted); font-style: italic; margin-top: 1.5rem; }
 
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
 .split figure { margin: 0; }
